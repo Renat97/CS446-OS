@@ -1,0 +1,7 @@
+TO COMPILE: type "make" into the terminal.
+TO RUN: ./SIM02 "config file name" 
+
+
+  This is Phase 2 of the operating system simulation, I made a PCB class which handles all the different process states, and parses the write metadata file information with the configuration file/logger file, etc. The threads are made on line "616" and beyond of the pcb class, and the pcb itself is in the same class. I had help from Deeptanshu Das with coming up for ideas for the design of this project. One issue I had with this project is getting the same expected run times as it says in the PDF, what the times should be.  
+
+
