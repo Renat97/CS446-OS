@@ -1,2 +1,2 @@
 # CS446-OS
-Class projects for CS446 Operating Systems.
+Class projects for CS446 Operating Systems. Part 1 was to use my knowledge of strings, reading from files, and data structures. I built the Operating System simulator preemptively, so decided how all the future parts would be made in the first part. Part 2 allows our simulator to run a stand-alone program. I simulated a process running given a specific configuration file, and metadata file. Part 3 I implemented multiprogramminga and resource management in the Operating System. This is done by running multiple process and handle their use of resources through mutexes and semaphores.
