@@ -127,7 +127,7 @@ void outputToLogFile(Config cf, std::vector<MetaDataCode> mdv) {
     }
 }
 
-// takes an ofstream file and outputs the text to a seperate log file
+// writes text out to the ostream object, which is the terminal.
 void output(Config cf, std::vector<MetaDataCode> mdv, std::ostream& out, int loggedToOption) {
     out << "Configuration File Data" << std::endl;
     out << "Monitor = " << cf.getMDT() << " ms/cycle" << std::endl;
